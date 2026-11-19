@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 24px 16px;
+    font-family: Roboto, "Segoe UI", Arial, sans-serif;
+    color: #3a3a45;
+    background: #f2f2f2;
+}
+
+.formulario {
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 28px 22px 26px;
+    background: #ffffff;
+    border-top: 5px solid #3b5bff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.campo {
+    margin-bottom: 22px;
+}
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 18px 16px;
+    font: inherit;
+    font-size: 18px;
+    color: #3a3a45;
+    background: #ffffff;
+    border: 1px solid #9aa3e6;
+    border-radius: 2px;
+    outline: none;
+}
+
+.campo textarea {
+    height: 170px;
+    resize: vertical;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    border-color: #b4bdf2;
+}
+
+.campo input::placeholder,
+.campo textarea::placeholder {
+    color: #6b6b78;
+}
+
+.campo-error input:focus,
+.campo-error textarea:focus {
+    border-color: #c62828;
+}
+
+.estado {
+    padding: 16px 18px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.estado-error {
+    color: #8d212a;
+    background: #f8d7da;
+    border: 1px solid #f5c2c7;
+}
+
+.estado-ok {
+    color: #ffffff;
+    background: #2e9e4f;
+    border: 1px solid #1f7a39;
+}
+
+/* Botón */
+.formulario button {
+    display: block;
+    margin: 28px 0 0 auto;
+    padding: 16px 22px;
+    font: inherit;
+    font-size: 19px;
+    color: #ffffff;
+    background: #ff6a1f;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background: #e45510;
+}
